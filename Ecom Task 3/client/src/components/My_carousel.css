@@ -1,0 +1,13 @@
+.carousel .slider-wrapper{
+    height: 487px;
+    width: 100%;
+}
+.carousel .control-dots{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.carousel .slide .legend{
+    display: none;
+}

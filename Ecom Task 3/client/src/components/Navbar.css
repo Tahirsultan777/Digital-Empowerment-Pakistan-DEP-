@@ -1,0 +1,79 @@
+.container_navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem 3rem;
+    background-color: #faf8f8;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+/* search_bar  */
+.search_bar{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #faf8f8;
+    width: 30%;
+}
+.seacrh_icon{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.search_bar input{
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    margin-left: 8px;
+    width: 100%;
+}
+.search_bar input::placeholder{
+    font-weight: lighter;
+    color: black;
+}
+.search_bar input:focus{
+    outline: none;
+}
+
+.navLivk {
+    text-decoration: none;
+    /* position: sticky; */
+    color: black;
+    background-color: #faf8f8;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.navLivk:hover{
+    color: rgb(93, 88, 88);
+}
+
+nav {
+    /* border: 1px solid darksalmon; */
+    display: flex;
+    align-items: center;
+    background-color: #faf8f8;
+}
+.logo_brand{
+    display: flex;
+    /* border: 1px solid saddlebrown; */
+    align-items: center;
+    justify-content: center;
+    
+}
+nav ul {
+    background-color: #faf8f8;
+}
+nav ul li{
+    background-color: #faf8f8;
+}

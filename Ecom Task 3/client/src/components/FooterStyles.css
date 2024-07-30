@@ -1,0 +1,62 @@
+.MDBFooter{
+	/* border: 1px solid darkblue; */
+	text-align: center;
+	font-size: large;
+	margin-top: 5rem;
+}
+.footer_Section{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	font-size: x-large;
+	border-bottom: 1px solid gray;
+}
+.Network_Text{
+	/* marker-end: 20px; */
+	/* display: none; */
+	/* display: block; */
+}
+.UseFulLink{
+	/* background-color: aquamarine; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.socialApp{
+	margin-right: 20px;
+	font-size: 3rem;
+	color: black;
+}
+.socialApp:hover{
+	color: rgb(81, 77, 77);
+}
+
+/* MDBContainer */
+
+.MDBContainer{
+	/* border: 1px solid rebeccapurple; */
+	text-align: center;
+	margin-top: 2rem;
+}
+.MDBRow{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	/* grid-gap: 10px; */
+}
+.MDBCol h4{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+.MDBCol p{
+	color: #535050;
+	padding: .5rem;
+}
+.MDBCol a{
+	color: #535050;
+}
+.MDBCol a:hover{
+	color: #535050;;
+}
